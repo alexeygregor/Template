@@ -157,7 +157,7 @@ void remove(vector<vector<Register>>& vec)
     {
         if(input == vec[i][0].key)
 		{
-            vec.erase( vec.begin( ) + i, vec.begin( ) + i + 1);
+            vec.erase(vec.begin( ) + i);
 			ch = true;
 		}
 	}
